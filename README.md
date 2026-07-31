@@ -1,2 +1,20 @@
-# OLED-Drive-by-I2C
-This is a OLED drive. Now,you can display a image or animation  on the OLED.
+# 8051-OLED-Drive-by-I2C
+
+@River-super
+
+欢迎，这是我的第一个OLED驱动，你可以调用代码中的函数，去驱动OLED屏幕，代码持续更新。
+
+函数功能概览（持续更新中）：
+      1.全亮
+      2.全暗
+      3。显示格式为128*64的图片（需取模）
+
+图片取模方式：垂直扫描
+             从左到右
+             从上到下
+            储存顺序：最低位优先
+
+在文件中，自带了3个示例程序
+
+注：代码根据STC89C52RC的单片机、SSD1306驱动的128*64OLED屏幕 定制。
+    硬件有差异，可以对代码自行更改，以适配硬件。
